@@ -7,5 +7,4 @@
 * [Random-Idea](random-idea/README.md)
 * [Across the web](across_the_web.md)
    * [Caching](caching.md)
-* Golang
 
