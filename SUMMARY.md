@@ -5,5 +5,5 @@
    * [Word to live by](spirit_of_hacker/word_to_live_by.md)
 * [Useful Tools](useful_tools/README.md)
 * [Random-Idea](random-idea/README.md)
-* Across the web
+* [Across the web](across_the_web.md)
 
