@@ -54,4 +54,20 @@
  - `step over` : `p`
  > break on every instruction without following `call` or `ints`
  - `step out` : `gu`
- > use to exit function, break on next `ret` 
+ > use to exit function, break on next `ret`
+
+7. Displaying Memory
+ - `db`: display bytes
+ - `dw`: display words (2 bytes)
+ - `dd`: display dwords (4 bytes)
+ - `dq`: display qwords (8 bytes)
+ - `dyb`: display bits
+ - `da`: display null-terminated ASCII strings
+ - `du`: display null-terminated Unicode strings
+ - [Range] dd < start address > < end address >
+
+8. Edit address
+>e[b|d|w] < address > [val1 val2 ... val3]
+
+9. Search Memory
+>s [-d|-w|-b|-a-U] < start address > L?< number of elements > < search value >
